@@ -230,34 +230,66 @@ Q51. What is frozen set?
 Ans: Frozen set is just an immutable version  of a python set object.
 
 Q52. How is frozen set different from set?
+Ans: A frozenset is provides an immutable implementation while set is a mutable object.
 
 Q53. What is union() in sets? Explain via code.
+Ans:The union of two sets A and B is defined as the set of all the element which lie in set A and B or both the element in A andB altogether,
+and the union of the set is denoted by the symbol 'U'
+    A = {1,2,3,4}
+    B = {5,4,3,2}
+  #compute union between A and B
+ print('A U B =', Aa.union(B))
 
 Q54. What is intersection() in sets? Explain via code.
+`Ans: The intersection of set can be denoted using the symbol '∩'.the intersection of two set A and B is the 
+      set of all those elements which are common to both A and B.
 
 Q55. What is dictionary ibn Python?
+Ans: dictionaries are python's implementation of a data structure that is more generally known as an associativearray.
+you can define a dictionary by enclosing a comma-separated list to key-value pairs in curly braces({}).Acolon(:) separated
+each key from its associated value.
 
 Q56. How is dictionary different from all other data structures.
+Ans: The dictionary data structure in python is an unordered collection of items.while other data structure
+use only one value as the element,the dictionary is a slightly more compound data structure.
 
 Q57. How can we delare a dictionary in Python?
+Ans: you declare a dictionary with a set of curly braces{},inside the curly braces you have a key-value pair.
 
 Q58. What will the output of the following?
 
 var = {}
 print(type(var))
+Ans: <class 'dict'>
+
 Q59. How can we add an element in a dictionary?
+Ans: we add a new element to the dictionary by using a new key as a subscript and assigning it a value.
 
 Q60. Create a dictionary and access all the values in that dictionary.
+Ans: Fruits = {banana,apple,grapes}
+     print(Fruits).
 
 Q61. Create a nested dictionary and access all the element in the inner dictionary.
+Ans:students = {1:{'name': 'Ayan', 'age': '20', sex': 'male'},
+               2:{'name': 'jyoti', 'age': '25', 'sex': 'female'}}
+     print(stuednts[1]['name'])
+     print(stuednts[1]['age'])
+     print(stuednts[1]['sex'])
+#OUTPUT :ayan
+         20
+         male
 
 Q62. What is the use of get() function?
+Ans:get() method in python is used to get the value of any specified key from a dictionary.
 
 Q63. What is the use of items() function?
+Ans: The item() function in the dictionary is used to return each item in a dictionary as tuples in alist.
 
 Q64. What is the use of pop() function?
+Ans: the pop () function removes the last element or the element based on the index given.
 
 Q65. What is the use of popitems() function?
+Ans:the popitem() fution is used to reove the item that was last inserted into the dictionary.
 
 Q66. What is the use of keys() function?
 
