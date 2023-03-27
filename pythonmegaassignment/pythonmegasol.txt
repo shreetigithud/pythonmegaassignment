@@ -178,26 +178,56 @@ lst = ["Welcome", "to", "Data", "course"]
 Q40. What is a tuple? How is it different from list?
 
 Q41. How can you create a tuple in Python?
+Ans: A tuple in python can be created by enclosing all the comma-separated element inside the parenthesis(). element of the
+tuple are immutable and ordered .it allows duplicate value and can have any number of element.you can even create an empty tuple.
 
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+Ans:# create a tuple
+     tuplex = (soma,shubham,ayan)
+     print = (tuplex)
+    #tuples are immutable ,so we can not add new elements
+    #using merge of tuple with thw + operatoryou can add an element and it will create a new tuple
+     tuplex = tuplex + (shreeti)
+     print(tuplex)
 
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+Ans: we can not add element to a tuple beecause of their immutable property.
 
 Q44. Take a tuple as an input and print the count of elements in it.
+Ans:# tuple of numbers
+      number = (1,2,1,3,4,2,2,5)
+    #count the number of 2's in the tuple
+    count = number.count(2)
+   print(count)
 
 Q45. What are sets in Python?
+Ans: set are used for multiple items in a single variable.
 
 Q46. How can you create a set?
+Ans: we create sets by placing all the elements inside the curly braces{},separeted by comma.
 
 Q47. Create a set and add "iNeuron" in your set.
+Ans: #create a set
+     fruits = {apple, banana,grapes}
+    #adding custard apple
+     fruits,add(custard apple)
+     print(fruits)
 
 Q48. Try to add multiple values using add() function.
+Ans: #create sets
+    myset = {2,3,5,6,7}
+    #append multiple sets operators
+    myset1 = myset | {10,20}
+    print(myset1)
 
 Q49. How is update() different from add()?
+Ans: update is used for updating data that is already in the table ,otherhand add() is used for adding a data to the table.
 
 Q50. What is clear() in sets?
+Ans The clear() method remove all element in a set.
 
 Q51. What is frozen set?
+Ans: Frozen set is just an immutable version  of a python set object.
 
 Q52. How is frozen set different from set?
 
