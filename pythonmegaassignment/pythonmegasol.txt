@@ -1,39 +1,73 @@
 Q1. Why do we call Python as a general purpose and high-level programming language?
+Ans: python is a genral purpose language, because it can be used to creat a variety of different program and isnt specialized for any
+specific problems.This versatility,along with it's beginner friendliness,has made it one of the most used programming language today.
 
 Q2. Why is Python called a dynamically typed language?
+Ans: Because dynamic typing means that the type of the variable is determined only during runtime,where the interpreter asign variable a type
+at runtime based on the variable's value at the time.
 
 Q3. List some pros and cons of Python programming language?
+Ans: Ans:- Addavantage of ussing python is easy to use, straight forward syntax, large user base, free and open-source license and cons of ussing python is heavy memory using.
 
 Q4. In what all domains can we use Python?
+Ans:- python is a programming language for domain such as deep learnig, machne learning, artificial Intelligence and also It Is fundamental tool for any data scientist.
 
 Q5. What are variable and how can we declare them?
+Ans:- variable is a basic unit of storage programming language, variable consist of a data type, the valable name, and the value to be assigned to the variable.
 
 Q6. How can we take an input from the user in Python?
+Ans: for that we use input function,first we print te message which we want to take input input from user and save in variable
+for example: name=input("what is your name")
+thrn with print funtion we took input
+example: print(name)
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
 
 Q8. What is type casting?
+Ans:- The conversion of one data type into the other data type is known as type casting, python suport a wide variety of function or method 
+like: int(),str(),float(),tuple(),set(),list(),dict(),and() for the type casting in python.
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
 
 Q10. What are keywords?
+Ans:- python keywords are special reserved word that have specific meanings and purposes and can't be used for anything but those specific purposes.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
+Ans :-no,keyword define the language's syntax rules and structure, and they cannot be used as variable names.
 
 Q12. What is indentation? What's the use of indentaion in Python?
+Ans: indentation refers to the spaces at the beginning of a code line, python uses indentation to indicate a block of code.
 
 Q13. How can we throw some output in Python?
+Ans: the basic way to do output is the print statement.
 
 Q14. What are operators in Python?
+Ans: Arithmetic operators
+     comparison operators
+     membership operators
+     logical operators
+     Identity operators
+     membership operators
+     bitwise operators.
 
 Q15. What is difference between / and // operators?
+Ans:-/ stands for normal division, devides the value on the left by the one on the right,notice the division result in a floating point value.
+ // stands for floor division divides and return the integer value of the quotient.it neglect the digits after the decimal.
 
 Q16. Write a code that gives following as an output.
 
 iNeuroniNeuroniNeuroniNeuron
+Ans:print("ineuron\"*4)
+
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Ans number int(input("Enter a number:))
+    if (number%2)==0;
+    print(number, is even number)
+    else:
+         print(number, "is odd number)
 
 Q18. What are boolean operator?
+Ans: Boolean is type of value that can be either True or False.
 
 Q19. What will the output of the following?
 
@@ -45,28 +79,63 @@ True and False and True
 
 1 or 0 or 0
 Q20. What are conditional statements in Python?
+and it has 3 key conditional statement
+    1. if statement
+    2. if else statement
+    3. if elif-else statement
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
+Ans: if statement used determine whether a block of code will be executed or not
+     if-else statement work in conjuction with the if statement to execute  code block when the define if condition is false.
+     ans the if-elif-else statement is used check for multiple condition and execute the code block within if any of the condition evalute to be true.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+Ans: age-int(input("28:"))
+     if age>18:
+        print("i can vote")
+     if age<18:
+        print("I can't vote")
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+Ans: 1st step:-1st[12,75,150,180,145,525,50]
+            for val in 1st:
+            print(val)
+     2ns step: 1st[12,17,150,180,145,525,50]
+               sum=0
+               for val in 1st:
+               sum=sum+val
+               print(sum)
+
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+Ans: num1 = int(input('enter 1st number here:'))
+     num2 = int(input('enter 2nd number here:'))
+     num3 = int(input('enter 3rd number here:'))
+     if (num1 > num2) and (num1 > num3)
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
 The number must be divisible by five
-
+Ans: a = [12,75,150,180,145,525,50]
+     b = []
+     for i in a:
+         if i > 500:
+          break continue
+         if i % 5 == o:
+      print(b)
 If the number is greater than 150, then skip it and move to the next number
 
 If the number is greater than 500, then stop the loop
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 Q26. What is a string? How can we declare string in Python?
+Ans: A string is a sequence of characters stored in a character array.A string is a text enclosed in double quotation marks.
+A character such as 'd' is not a string and it is indicated by single quotation marks.
 
 Q27. How can we access the string using its index?
+Ans: we can access the characters in a string by referring to its index number inside square brckets[].
 
 Q28. Write a code to get the desired output of the following
 
@@ -79,18 +148,25 @@ desired_output = "norueNi"
 Q30. Resverse the string given in the above question.
 
 Q31. How can you delete entire string at once?
+Ans: we can use remove the entire string variable using the del command.
 
 Q32. What is escape sequence?
+Ans: escape sequence is a sequence of characters that, when we used inside a character or string,does not represent itself but is converted into another charcter or series of characer.
 
 Q33. How can you print the below string?
 
 'iNeuron's Big Data Course'
+Ans: print("iNeuron's Big Data Course").
+
 Q34. What is a list in Python?
+Ans: List are used to store multiple items in a single variable.
 
 Q35. How can you create a list in Python?
+Ans: To create a list in python,we use square brackets([]).
+example: [ list,list1,list2...]
 
 Q36. How can we access the elements in a list?
-
+Ans:
 Q37. Write a code to access the word "iNeuron" from the given list.
 
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
